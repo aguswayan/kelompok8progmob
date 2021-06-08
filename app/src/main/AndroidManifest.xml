@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myperpus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyPerPus">
+        <activity android:name=".GarudaDiDadaku"></activity>
+        <activity android:name=".LaskarPelangi2" />
+        <activity android:name=".limasentimeter" />
+        <activity android:name=".SangPemimpi" />
+        <activity android:name=".LaskarPelangi" />
+        <activity android:name=".BukuMotivasi" />
+        <activity android:name=".DespicableMe" />
+        <activity android:name=".Frozen" />
+        <activity android:name=".AngryBird" />
+        <activity android:name=".TomAndJerry" />
+        <activity android:name=".Spongebob" />
+        <activity android:name=".BukuAnakAnak" />
+        <activity android:name=".DragonBall" />
+        <activity android:name=".DetectiveConan" />
+        <activity android:name=".OnePiece" />
+        <activity android:name=".Boruto" />
+        <activity android:name=".Naruto" />
+        <activity android:name=".BukuAnime" />
+        <activity android:name=".MarmutMerahJambu" />
+        <activity android:name=".CintaBrontosaurus" />
+        <activity android:name=".MyStupidBoss2" />
+        <activity android:name=".MyStupidBoss1" />
+        <activity android:name=".WarkopDKI" />
+        <activity android:name=".BukuKomedi" />
+        <activity android:name=".SebelumIblisMenjemput" />
+        <activity android:name=".MataBatin" />
+        <activity android:name=".PengabdiSetan" />
+        <activity android:name=".Jelangkung" />
+        <activity android:name=".Danur" />
+        <activity android:name=".BukuHorror" />
+        <activity android:name=".LondonLoveStory" />
+        <activity android:name=".DearNathan" />
+        <activity android:name=".MileaSuaraDariDilan" />
+        <activity android:name=".dilan1991" />
+        <activity android:name=".Dilan1990" />
+        <activity android:name=".BukuDrama" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

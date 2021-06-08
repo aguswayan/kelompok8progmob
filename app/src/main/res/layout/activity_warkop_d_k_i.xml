@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6FA"
+    android:orientation="vertical"
+    tools:context=".WarkopDKI">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/trailerwarkopdki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="2UCPMRM-kHk"
+        app:autoPlay="true"
+        app:showYouTubeButton="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:text="Warkop DKI"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Warkop DKI adalah grup lawak legendaris Indonesia. Grup lawak ini merupakan kelanjutan dari grup lawak Warkop Prambors setelah salah satu anggotanya, yaitu Nanu Mulyono mengundurkan diri. Sayang pencapaian grup Warkop hingga kemudian menjadi terkenal dan menjadi legenda tidak dilalui bersama-sama oleh kelima anggotanya. Pada saat sudah naik di atas panggung, Rudy Badil selalu mengalami demam panggung yang tak bisa diatasinya. Ia memutuskan untuk mengundurkan diri dari Warkop lantaran merasa demam panggung tersebut. Keempat rekannya meneruskan kiprah impian mereka dalam berbagai kesempatan yang mereka peroleh dalam dunia hiburan panggung, yang kemudian berlanjut pada rekaman kaset, dan film. Mundurnya Rudy Badil membuat ia sebagai satu-satunya anggota yang tidak terlibat dalam satupun film yang dibintangi oleh para anggota Warkop.[1]"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:background="@drawable/warkop"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            tools:src="android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_item_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Warkop DKI"/>
+
+            <TextView
+                android:id="@+id/tv_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textSize="18sp"
+                android:maxLines="2"
+                android:text="Rating    : 7.2"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

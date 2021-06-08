@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6FA"
+    android:orientation="vertical"
+    tools:context=".DetectiveConan">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/trailerdetectiveconan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="mQ7HKt7GRD8"
+        app:autoPlay="true"
+        app:showYouTubeButton="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:text="Detective Conan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Detektif Conan, adalah sebuah seri manga shōnen Jepang bertema detektif yang ditulis dan diilustrasikan oleh Gosho Aoyama. Manga ini telah dimuat dalam majalah Weekly Shōnen Sunday terbitan Shogakukan sejak tanggal 19 Januari 1994, dan telah dibundel menjadi 98 volume tankōbon hingga tanggal 15 April 2020. Karena adanya masalah hukum dengan hak nama Detective Conan, maka nama rilisan versi bahasa Inggris dari Funimation dan Viz diubah menjadi Case Closed.[2] Alur ceritanya mengisahkan tentang seorang detektif SMA yang tubuhnya menyusut menjadi kecil saat sedang menyelidiki sebuah organisasi misterius. Dia kemudian memecahkan banyak kasus sambil meniru ayah temannya dan karakter lainnya.."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:background="@drawable/detec"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            tools:src="android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_item_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Detective Conan"/>
+
+            <TextView
+                android:id="@+id/tv_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textSize="18sp"
+                android:maxLines="2"
+                android:text="Rating    : 8.4"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

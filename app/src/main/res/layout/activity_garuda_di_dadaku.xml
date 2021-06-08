@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6FA"
+    android:orientation="vertical"
+    tools:context=".GarudaDiDadaku">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/trailergarudadidadaku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="0LgDV7xFIHs"
+        app:autoPlay="true"
+        app:showYouTubeButton="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:text="Garuda Di Dadaku"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Garuda di Dadaku merupakan film Indonesia yang dirilis pada tanggal 18 Juni 2009 yang disutradarai oleh Ifa Isfansyah berdasarkan novel Mimpi Sang Garuda karya Benny Rhamdani. Film ini dibintangi antara lain oleh Emir Mahira, Aldo Tansani, Marsha Aruan, Ikranegara, Maudy Koesnaedi, Ari Sihasale, dan Ramzi. Pembuatan film ini dilakukan di beberapa lokasi di Jakarta, tepatnya di Stadion Utama Gelora Bung Karno, yang merupakan bagian dari kompleks olahraga Gelanggang Olahraga Bung Karno di kawasan Senayan, Jakarta Selatan, untuk pengambilan adegan seleksi pemain Tim Nasional (Timnas) Indonesia U13 dan pertandingan antara Timnas Indonesia U13 melawan Jepang."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:background="@drawable/garuda"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            tools:src="android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_item_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Garuda Di Dadaku"/>
+
+            <TextView
+                android:id="@+id/tv_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textSize="18sp"
+                android:maxLines="2"
+                android:text="Rating    : 7.0"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
